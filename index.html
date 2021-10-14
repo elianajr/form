@@ -20,19 +20,19 @@
             <div class="card-body">
               <h6 class="card p-2 m-2 bg-danger" style="--bs-bg-opacity: .5;">Some fields are missing</h6>
               
-              <p class="card-text">
+              <div class="card-text">
                 <form action="/action_page.php" method="POST">
                     <div class="row">
                         <div class="col-5">
-                            <label for="card">Card #</label> <br>
+                            <label for="card">Card #</label> 
                             <input class="w-100" type="tel" id="card" name="card" maxlength="16" placeholder="XXXXXXXXXXXXXXXX" size="16" required>
                         </div>
                         <div class="col-3">
-                            <label for="cvc">CVC #</label> <br>
+                            <label for="cvc">CVC #</label> 
                             <input class="w-100" type="tel" id="cvc" name="cvc" maxlength="4" placeholder="0000" required>
                         </div>
                         <div class="col-4">
-                            <label for="amount">Amount</label> <br>
+                            <label for="amount">Amount</label> 
                             <div class="row">
                                 <div class="col-1">
                                     <i class="fas fa-dollar-sign"></i>
@@ -46,23 +46,23 @@
 
                     <div class="row mt-2">
                         <div class="col">
-                            <label for="fname">First name</label><br>
+                            <label for="fname">First name</label>
                             <input class="w-100" type="text" id="fname" name="fname" required>
                         </div>
                         <div class="col">
-                            <label for="lname">Last name</label><br>
+                            <label for="lname">Last name</label>
                             <input class="w-100" type="text" id="lname" name="lname" required>
                         </div>
                     </div>
 
                     <div class="row mt-2">
                         <div class="col-5">
-                            <label for="city">City</label> <br>
+                            <label for="city">City</label> 
                             <input class="w-100" type="text" id="city" name="city" required>
                         </div>
                         <div class="col-3">
-                            <label for="state">State</label> <br>
-                            <input list="state" id="state" name="state" placeholder="Pick a state"/>
+                            <label for="state">State</label> 
+                            <input class="w-100" list="state" id="state" name="state" placeholder="Pick a state"/>
                             <datalist id="state" name="state">
                                 <option value="madrid">
                                 <option value="zaragoza">
@@ -71,8 +71,8 @@
                             </datalist> 
                         </div>
                         <div class="col-4">
-                            <label for="code">Postal Code</label> <br>
-                            <input class="w-100" type="number" id="code" name="code" required>
+                            <label for="code">Postal Code</label> 
+                            <input class="w-100" type="text" id="code" name="code" required>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@
 
         
                 </form>
-              </p>
+            </div>
             </div>
 
             
